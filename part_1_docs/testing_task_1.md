@@ -43,6 +43,7 @@ def cards_total(self, cards):
   for card in cards:
     total += card.value
     # return indentation wrong 
+    # total needs to be in {}
     return "You have a total of" + total
   
 ```
