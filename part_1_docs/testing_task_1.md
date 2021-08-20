@@ -37,13 +37,14 @@ class CardGame:
   
 
 # total variable hasn't been set, should be total = 0 in line 42
+#indent error
 
 def cards_total(self, cards):
   total
   for card in cards:
     total += card.value
     # return indentation wrong 
-    # total needs to be in {}
+    # return statement needs to be in f string {total}
     return "You have a total of" + total
   
 ```
